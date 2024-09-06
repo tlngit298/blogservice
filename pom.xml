@@ -41,6 +41,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+
+<!--		spring security-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+
 <!--		lombok-->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -48,6 +55,7 @@
 			<version>${projectlombok-lombok.version}</version>
 			<scope>provided</scope>
 		</dependency>
+
 <!--		mapstruct-->
 		<dependency>
 			<groupId>org.mapstruct</groupId>
